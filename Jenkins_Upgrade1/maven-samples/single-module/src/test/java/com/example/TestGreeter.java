@@ -25,14 +25,14 @@ public class TestGreeter {
   }
 
   @Test
-  public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World";
+  public void greetShouldIncludeGreetingPhrase1() {
+    String someone = "World1";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
 
  @Test
-  public void greetShouldIncludeHello() {
+  public void greetShouldIncludeHello1() {
     String someone = "Hellow World";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
